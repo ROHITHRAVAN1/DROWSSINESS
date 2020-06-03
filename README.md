@@ -2,7 +2,7 @@
 clear all; 
 clc
 %%%%%%-------video input	%%%%%%
-obj = VideoReader('C:\Users\R L Jayanth\Desktop\b3.mp4','Tag','My reader object'); I = read(obj,1);
+obj = VideoReader('C:\Users\18BIT0126\Desktop\b3.mp4','Tag','My reader object'); I = read(obj,1);
 rate = obj.FrameRate; rate
 %%%%%-----working on 1st frame	%%%%%%%%%
 figure, imshow(I)
